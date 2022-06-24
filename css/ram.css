@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+width: 100%;
+height: 100vh;
+
+}
+.bg img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+opacity: 20%;
+}
+footer{
+  /* border: 2px solid black; */
+  display: flex;
+  height: 8vh;
+  background: rgb(0, 0, 0);
+    
+}
+.copyright{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 2%;
+    
+}
+h2{
+    color: white;
+    object-fit: cover;
+}
+.follow{
+    /* border: 1px solid rgb(226, 108, 108); */
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.follow h2{
+    /* border: 1px solid rgb(255, 255, 255); */
+    text-align: center;
+    justify-content: center;
+    float: inline-start;
+    width: 200px;
+    
+}
+
+
+.icons{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    width: 100%;
+    height: 80%;
+
+}
+.circle_link{
+    border: 3px solid rgb(255, 255, 255);
+   
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 100%;
+
+
+}
+.facebook{
+   border: 2px solid rgb(0, 0, 0);
+   
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 100%; 
+    background-color: white;
+}
+
+.facebook:hover{
+    border: 2px solid rgb(34, 21, 206);
+    background-color: rgb(71, 252, 0);
+}
+.facebook img{
+
+
+
+width: 100%;
+height: 100%;
+
+
+}
