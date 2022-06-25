@@ -1,0 +1,255 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  .body {
+    width: 100%; /* to fit in body */
+    height: 100vh; /* to fit in body */
+
+  }
+  .map img {
+    width: 100%; /* to fit in body */
+    height: 100%; /* to fit in body */
+    object-fit: cover; /* to fit in body */
+    opacity: 60%;
+  }
+
+  /* nav start */
+  
+  .navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  .links {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    
+    
+    /* left side ma lyaucha sabai lai */
+    display: flex;
+    /* center ma align gardincha */
+    align-items: center;
+    /* gap chodcha evenly */
+    justify-content: space-evenly;
+   
+  }
+  .links a {
+    color: black;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Artifika';
+    font-style: normal;
+    font-weight:lighter ;
+    font-size: 20px;
+    line-height: 29px;
+    
+  }
+  .portfolio {
+    height: 100%;
+    width:80%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+   
+  } 
+  .portfo {
+    height: 50%;
+    width: 10%;
+    border: none;
+    padding-left:80% ;
+ 
+  }
+  .portfo span{
+    color: black;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Artifika';
+    font-style: normal;
+    font-weight:bold ;
+    font-size: 20px;
+    line-height: 29px;
+
+  }
+  .lio span{
+    color: rgb(250, 5, 5);
+    position: relative;
+    text-decoration: none;
+    font-family: 'Artifika';
+    font-style: normal;
+    font-weight:bold ;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .lio{
+    height: 50%;
+    width: 30%;
+    border: none;
+   
+  }
+  body {
+    height: 100vh;
+  }
+  .container {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+  }
+  .description-box {
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(12, 151, 98); */
+  }
+  .des-contents {
+    padding-left: 50px;
+    padding-top: 20%;
+  }
+  .des-contents p {
+    font-size: 18px;
+  }
+  .des-btn {
+    height: 70%;
+    width: 40%;
+    padding-top: 50px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .des-btn button {
+    height: 45px;
+    width: 100px;
+    border: none;
+    border-radius: 10%;
+    background-color: aqua;
+  }
+/* nav end */
+
+/* skills */
+.skills{
+    height: 82vh;
+    width:100% ;
+    background: #F1F0F0;
+    /* background-color: rgb(185, 220, 229); */
+    display: flex;
+  }
+.my-ability{
+    height : 80%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    display: flex;
+    background: #E0DBDB;
+    box-shadow: 12px 8px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+.list{
+    height: 60%;
+    width: 40%;
+    /* background-color: #1bc131; */
+    margin-top: 7%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+}
+.desc{
+    height: 80%;
+    width: 45%;
+    margin-top: 3%;
+    margin-left: 8%;
+    background: #494848;
+    border-radius: 25px;
+    
+}
+.list span{
+    font-size: 20px;
+    padding-left: 5%;
+    
+}
+
+.first{
+    height: 35%;
+    width: 80%;
+    /* background-color: burlywood; */
+    margin-left: 9.5%;
+    margin-top: 7%;
+    text-align: justify;
+}
+.first span{
+    font-size: 20px;
+    color: white;
+   
+}
+.second {
+    height: 45%;
+    width: 80%;
+    /* background-color: rgb(240, 146, 23); */
+    margin-left: 9.5%;
+    text-align: justify;
+
+}
+.second span{
+    font-size: 20px;
+    color: white;
+}
+/* Skills end */
+
+ /* footer start */
+ footer{
+    height: 8vh;
+    background-color: black;
+    display: flex;
+  }
+  .copyright{
+    width: 100%;
+    border: 2px solid rgb(114, 250, 155);
+    display: flex;
+    align-items: center;
+    
+  }
+  .copyright h2{
+    color: white;
+    font-size: 18px;
+    font-family: 'Abhaya Libre', serif;
+    padding-left: 3%;
+  
+  }
+  .follow{
+    width: 40%;
+    border: 2px solid salmon;
+    display: flex;
+    align-items: center;
+  }
+  .follow h2{
+    color: white;
+    font-size: 18px;
+    font-family: 'Abhaya Libre', serif;
+    padding-left: 1%;
+    
+  }
+  .icons{
+    border: 2px solid green;
+    height: 90%;
+    width: 65%;
+    margin-left:2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .circle-links{
+    border: 2px solid white;
+    width:5%;
+    height: 80%;
+    border-radius: 100%;
+    padding-left: 20px;
+  }
+  .circle-links img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* footer end */
