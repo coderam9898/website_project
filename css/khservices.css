@@ -34,12 +34,8 @@ body {
     font-weight: 600;
 }
 
-.home {
-    color: #ff0000 !important;
-}
-
 .Portfolio {
-    width: 20%;
+    width: 30%;
     height: 100%;
     background-color: #fff;
     display: flex;
@@ -63,41 +59,11 @@ body {
 
 .contener {
     height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.contener .heading {
-    height: 70%;
-    width: 40%;
-}
-
-.contener .button {
-    height: 50px;
-    width: 100%;
-    margin-top: 50px;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.button button {
-    height: 100%;
-    width: 200px;
-    background-color: black;
-    color: white;
-}
-
-.image {
-    height: 60%;
-    width: 30%;
-}
-
-.image img {
-    height: 100%;
-    width: 100%;
+    border: 2px salmon;
 }
 
 footer {
@@ -123,11 +89,6 @@ footer {
     justify-content: left;
     padding-left: 2%;
 
-}
-
-h2 {
-    color: white;
-    object-fit: cover;
 }
 
 .follow {
