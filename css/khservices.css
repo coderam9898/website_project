@@ -56,15 +56,45 @@ body {
 .lio {
     color: #ff0000;
 }
-
+.services{
+    height: 10%;
+    width: 100%;
+    background-color: #ff0000;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    
+}
 .contener {
     height: 100vh;
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px salmon;
+   background-color: #000;
 }
+.card{
+    height: 50%;
+    width: 25%;
+    background-color: #ff0000;
+   padding-left: 10%;
+}
+.card1{
+    height: 50%;
+    width: 25%;
+    background-color: #15c924;
+}
+.card2{
+    height: 50%;
+    width: 25%;
+    background-color: #fff;
+}
+.card3{
+    height: 50%;
+    width: 25%;
+    background-color:aqua
+}
+
 
 footer {
     /* border: 2px solid black; */

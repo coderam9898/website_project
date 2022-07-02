@@ -67,13 +67,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+  background-color: aqua;
 }
-
 .contener .heading {
-    height: 70%;
+    height: 60%;
     width: 40%;
 }
-
+/* .home1{
+   height: 10%;
+   width: 20%;
+}
+ .home1 .h1{
+    border: 2px salmon;
+} */
 .contener .button {
     height: 50px;
     width: 100%;
@@ -88,6 +94,7 @@ body {
     width: 200px;
     background-color: black;
     color: white;
+    margin-bottom: -60%;
 }
 
 .image {

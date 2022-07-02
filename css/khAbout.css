@@ -57,18 +57,47 @@ body {
     color: #ff0000;
 }
 
-/* .contener {
-    height: 100vh;
+.about{
+    height: 10%;
+    width: 100%;
+    background-color: #ff0000;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.p{
+    display: flex;
+}
+.contener {
+    background-color: rgb(15, 207, 207);
+    height: 90%;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
-.contener .about{
-    height: 50%;
-    width: 20%;
+
+.image {
+    height: 100%;
+    width: 50%;
+    background-color: #000;
+}
+.txt{
+    height: 100%;
+    width: 50%;
+    background-color: #1ecf27;
+}
+
+/* .image img {
+    height: 90%;
+    width: 90%;
+  background-color: #ff0000;
 } */
 
+/* .image img {
+    height: 100%;
+    width: 100%;
+} */
 footer {
     /* border: 2px solid black; */
     display: flex;
