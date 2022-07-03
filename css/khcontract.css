@@ -1,4 +1,5 @@
-* {
+*
+{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -34,12 +35,8 @@ body {
     font-weight: 600;
 }
 
-.home {
-    color: #ff0000 !important;
-}
-
 .Portfolio {
-    width: 20%;
+    width: 30%;
     height: 100%;
     background-color: #fff;
     display: flex;
@@ -61,57 +58,27 @@ body {
     color: #ff0000;
 }
 
-.contener {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: aqua;
-}
-
-.contener .heading {
-    height: 100%;
-    width: 50%;
-    background-color: crimson;
-}
-
-.home1 {
+.contract h1 {
     height: 10%;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.contener .button {
-    height: 50px;
-    width: 100%;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
 }
 
-.button button {
-    height: 100%;
-    width: 200px;
-    background-color: black;
-    color: white;
-    margin-bottom: -60%;
-}
-
-.image {
-    height: 100%;
-    width: 50%;
+.contract p {
     display: flex;
-    background-color: blue;
+    align-items: top;
+    justify-content: center;
 }
 
-.image img {
-    height: 70%;
+.contener {
+    background-color: rgb(15, 207, 207);
+    height: 80%;
     width: 100%;
-    margin-right: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {

@@ -60,7 +60,6 @@ body {
 .services {
     height: 10%;
     width: 100%;
-    background-color: #ff0000;
     display: flex;
     align-items: top;
     justify-content: center;
