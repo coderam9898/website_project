@@ -1,4 +1,5 @@
-* {
+*
+{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -57,44 +58,28 @@ body {
     color: #ff0000;
 }
 
-.services {
+.skill h1 {
     height: 10%;
     width: 100%;
-    background-color: #ff0000;
     display: flex;
     align-items: top;
     justify-content: center;
+}
 
+.skill p {
+    display: flex;
+    align-items: top;
+    justify-content: center;
 }
 
 .contener {
-    height: 100vh;
+    background-color: rgb(15, 207, 207);
+    height: 80%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000;
 }
-
-.card {
-    height: 50%;
-    width: 25%;
-    background-color: #ff0000;
-    padding-left: 10%;
-}
-
-.card1 {
-    height: 50%;
-    width: 25%;
-    background-color: #15c924;
-}
-
-.card2 {
-    height: 50%;
-    width: 25%;
-    background-color: #fff;
-}
-
 
 footer {
     /* border: 2px solid black; */
@@ -119,6 +104,11 @@ footer {
     justify-content: left;
     padding-left: 2%;
 
+}
+
+h2 {
+    color: white;
+    object-fit: cover;
 }
 
 .follow {

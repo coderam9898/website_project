@@ -1,4 +1,5 @@
-* {
+*
+{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -57,47 +58,63 @@ body {
     color: #ff0000;
 }
 
-.about{
+.about h1 {
     height: 10%;
     width: 100%;
-    background-color: #ff0000;
     display: flex;
     align-items: top;
     justify-content: center;
 }
-.p{
+
+.about p {
     display: flex;
+    align-items: top;
+    justify-content: center;
 }
+
 .contener {
     background-color: rgb(15, 207, 207);
-    height: 90%;
+    height: 80%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.image {
-    height: 100%;
-    width: 50%;
-    background-color: #000;
-}
-.txt{
+.txt {
     height: 100%;
     width: 50%;
     background-color: #1ecf27;
 }
-
-/* .image img {
-    height: 90%;
-    width: 90%;
-  background-color: #ff0000;
-} */
-
-/* .image img {
-    height: 100%;
+.contener .button {
+    height: 50px;
     width: 100%;
-} */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button {
+    height: 100%;
+    width: 200px;
+    background-color: black;
+    color: white;
+    margin-bottom: -60%;
+}
+
+.image {
+    height: 100%;
+    width: 50%;
+    background-color:darkorange
+}
+
+.image img {
+    height: 60%;
+    width: 70%;
+    margin-top: 10%;
+}
+
 footer {
     /* border: 2px solid black; */
     display: flex;
